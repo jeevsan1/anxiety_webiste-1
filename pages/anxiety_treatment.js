@@ -11,7 +11,7 @@ const anxiety_treatment = () => {
         </head>
         
          <div className={Style.anxiety_disorder}>
-            <h1> Here are a list of symptoms that are caused by Anxienty Symptoms:</h1>
+            <h1> Here are a list of treatments:</h1>
             <h1> <ul>
                 <li>Pyscotherapy- Despite the creepy name psycotherapy is just talking to someone generally a counsler to improve one Anxiety disorder</li>
                 <li>Medications- Certain Antidepressants</li>              
