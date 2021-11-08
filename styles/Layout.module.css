@@ -1,0 +1,377 @@
+.container {
+  height: 10%;
+  min-height: 10rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.main {
+  min-height: 10rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: darkgrey;
+}
+.header{
+  margin-top: 0;
+height: 15vh;
+padding-top: 1.5vh;
+padding-left: 3vh;
+background-color:#A3BCB6;
+color: #3C403D;
+justify-content: flex-start;
+align-items: center;
+font-size: 10vh;
+font-family: 'Mohave', sans-serif;
+user-select: none; /* Standard */
+}
+
+.header:hover {
+  height: 15vh;
+  padding-left: 3vh;
+  background-color:darkgrey;
+  color:cornsilk;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 10vh;
+  font-family: 'Mohave', sans-serif;
+}
+
+
+
+.welcome{
+  margin-top: 0vh;
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  font-size: 4vh;
+  background-image:url('https://static.psycom.net/wp-content/uploads/2020/08/what-is-anxiety-illustration.jpg') ;
+  background-size: cover;
+  padding-left: 2vh;
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  color:azure;
+  position: relative;
+  border-radius: 10px;
+  height: 100vh;
+}
+.welcome h1{
+  margin-left: 10vh;
+  margin-top: 3vh;
+  font-size: 3.5vh;
+  width: 30vh;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:darkblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 12px;
+}
+.welcome h1:hover{
+  margin-left: 10vh;
+  margin-top: 3vh;
+  font-size: 3.5vh;
+  width: 30vh;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:midnightblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 12px;
+}
+
+
+.box1{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#859793;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+
+}
+
+.box1:hover{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#66716F;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+  outline: darkcyan;
+  outline-offset: 1vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ 
+}
+
+.box2{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#918597 ;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+
+}
+
+.box2:hover{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#625B66;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+  outline: darkcyan;
+  outline-offset: 1vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.box3{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#665B5E ;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+
+}
+
+.box3:hover{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#342E30;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+  outline: darkcyan;
+  outline-offset: 1vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.box4{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#6C7563  ;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+
+}
+
+.box4:hover{
+  font-size: 7vh;
+  text-align: center;
+  background-color:#31352D;
+  color: #DADED4;
+  border-radius: 8px;
+  margin-top: 3vh;
+  margin-left: 2vh;
+  padding-left: 0vh;
+  padding-top: 2vh;
+  width: 80vh;
+  outline: darkcyan;
+  outline-offset: 1vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.chart{
+   border-radius: 8px;
+  max-width: 60%;
+  height: auto;
+  align-self: flex-end;
+  margin-left: 75vh;
+}
+
+.truth{
+  margin-top: 2vh;
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  font-size: 3vh;
+  background-color:#A3BCB6;
+  padding-left: 2vh;
+  display: flex;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 10px;
+}
+
+.description{
+  margin-left: 5vh;
+  margin-top: 3vh;
+  font-size: 5vh;
+  width: 100%;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:steelblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 10px;
+}
+.Link{
+  margin-left: 80vh;
+  margin-top: 3vh;
+  font-size: 3.5vh;
+  width: 30vh;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:darkblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 12px;
+ 
+}
+.Link:hover{
+  margin-left: 80vh;
+  margin-top: 3vh;
+  font-size: 3.5vh;
+  width: 30vh;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:midnightblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 12px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.bgdiv{
+  width: 100%;
+  height: 100vh;
+  background-color:powderblue;
+}
+.Gform_text{
+  margin-left: 15vh;
+  margin-top: 3vh;
+  font-size: 6vh;
+  width: 80%;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:steelblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 10px;
+}
+.otherButton{
+  margin-left: 2vh;
+  margin-top: 3vh;
+  font-size: 3.5vh;
+  width: 30vh;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:darkblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 12px;
+}
+.otherButton:hover{
+  margin-left: 15vh;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  font-size: 3.5vh;
+  width: 30vh;
+  padding-top:2vh ;
+  padding-bottom: 2vh;
+  background-color:midnightblue;
+  padding-left: 2vh;
+  justify-items:center;
+  align-items: center;
+  color:whitesmoke;
+  position: relative;
+  border-radius: 12px;
+}
+.form{
+  background-color: steelblue;
+  color: aliceblue;
+  border-radius: 8px;
+  padding-left:3vh;
+  font-size: 4vh;
+  box-shadow: 0 40px 50 px -50px cadetblue;
+  height: 55vh;
+  width: 150vh; 
+}
+.form input{
+  display:block;
+  width: 40%;
+  border-radius: 8px;
+  border: none;
+  height: 6vh;
+}
+.grid_container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.what_is_anxiety{
+  margin-top: 2vh;
+  background-color:#A3BCB6;
+  padding-left: 2vh;
+  color:whitesmoke;
+  border-radius: 10px;
+}
+.anxiety_disorder{
+  margin-top: 2vh;
+  background-color:#A3BCB6;
+  padding-left: 2vh;
+  color:whitesmoke;
+  border-radius: 10px;
+
+}
